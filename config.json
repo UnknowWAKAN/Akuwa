@@ -1,9 +1,7 @@
-[
-  {
-    "target": "http://0.0.0.0:8000",
-    "method": "HTTP_FLOOD",
-    "duration_ms": "30000",
-    "req_per_conn": "20"
-  }
-
-]
+{
+  "command": "udp_flood",
+  "url": "http://0.0.0.0:8000",
+  "connections": 100,
+  "duration": 300,
+  "start_time": "2025-10-31T05:10:50.611732Z"
+}
